@@ -24,5 +24,6 @@ console.log(x)
 
 var str ="Ghulam Shabbir"
 console.log(str + 7)
+
 console.log(" the type of str is "+typeof(str))
 
