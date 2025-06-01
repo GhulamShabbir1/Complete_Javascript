@@ -13,5 +13,41 @@ else{
   alert("You can now drive as you are above 18");
 }
 console.log("Done")
-// HomeWork - Explore switch statement and write a basic program in the comments
+
 console.log("You can", (a<18? "not drive" :"drive"))
+
+// Practice Section 
+
+let num1=15
+if(num1>10 && num1<20)
+{
+  console.log(`the ${num1} is lies bt 10 and 20`)
+}
+
+let num2=1
+switch (num2) {
+  case 1:
+    console.log(`the number is ${num2}`)
+    break;
+    case 2:
+    console.log(`the number is ${num2}`)
+    break;
+    case 3:
+    console.log(`the number is ${num2}`)
+    break;
+
+  default:
+    break;
+}
+
+const num3=15
+
+if(num3 % 2==0 || num3 % 3==0 )
+{
+  console.log("the number is devisible by 2 and 3")
+}
+
+if(num3 % 2==0 && num3 % 3==0 )
+{
+  console.log("the number is devisible by 2 and 3")
+}
