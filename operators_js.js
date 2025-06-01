@@ -47,3 +47,8 @@ console.log(!true)
 // This is a single line comment
 /* This is a sample multiline comment and a tutorial
 from  */
+
+var m=70
+
+let result=(m>=50)? "you are pass":"fail"
+console.log(result)
