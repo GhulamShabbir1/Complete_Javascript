@@ -17,12 +17,12 @@ let obj = {
   raza: 23
 }
 
-// For in loop
+// For in loop show each key of obj
 for (let a in obj) {
   console.log("Marks of " + a + " are " + obj[a])
 }
 
-// For of loop
+// For of loop   explain each charactor of string
 for (let b of "umer") {
   console.log(b)
 }
