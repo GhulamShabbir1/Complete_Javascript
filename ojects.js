@@ -48,3 +48,15 @@ const item = {
   "ron": undefined
 }
 console.log(item["ron"])
+
+const dictionary = {
+  apple: "A fruit that keeps the doctor away",
+  book: "A set of written or printed pages",
+  code: "A system of words for communication",
+  light: "Natural agent that makes things visible",
+  dream: "A series of thoughts during sleep"
+};
+
+
+
+console.log(" the meaning of this word in dictionary is "+dictionary.code)
