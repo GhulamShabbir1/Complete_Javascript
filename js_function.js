@@ -7,7 +7,6 @@ function onePlusAvg(x, y) {
   return 1 + (x + y) / 2
 }
 
-
 const sum = (p, q) => {
   return p + q
 }
