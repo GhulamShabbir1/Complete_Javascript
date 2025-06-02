@@ -80,7 +80,7 @@ let arr11=[1,[2,3],4,5,[6,[7,8]]]
 let faltarray=arr11.flat(2)  // remove nested arrays and add its value in main array
 
 let arr12=[551,22,3,14,5,6,7,8,229]
-a=arr12.sort()
+let a=arr12.sort()
 console.log(a)
 
 
@@ -138,7 +138,7 @@ for (let i in num3){
 
 let arr = [45, 23, 21]
 // Array map method
-let a = arr.map((value, index, array) => {
+let a1 = arr.map((value, index, array) => {
   // console.log(value, index, array)
   return value + index
 })
