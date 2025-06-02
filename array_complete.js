@@ -7,15 +7,38 @@ console.log(marks_class_12[4])
 console.log(marks_class_12[5])
 console.log(marks_class_12[6]) // Will be undefined because index 6 does not exist
 console.log("The length of marks_class_12 is", marks_class_12.length)
+
 marks_class_12[6] = 89 // Adding a new value to the array
 marks_class_12[0] = 96 // Changing the value of an array
 console.log(marks_class_12)
-console.log(typeof marks_class_12)
 
+console.log("the data type of array is "+typeof marks_class_12)
+
+// Array Methods
+let num = [1, 2, 3, 34, 4]
+let b = num.toString() // b is now a string 
+
+console.log(b + " the type of given data is " + typeof b)
+
+let c = num.join(" and ")
+console.log(c, typeof c)
+
+ let r1 = num.pop() // pop returns the popped element
+ console.log(num + " the numbers i pop is " + r1)
+
+ let r2 = num.push(56) // push returns the new array length
+ console.log(num+ " the numbers i push is " +r2)
+
+ let r3 = num.shift()
+console.log(r3+ " the numbers i shift  " +num) // Removes an element from the start of the array
+
+let r = num.unshift(78)
+console.log(r+ " the numbers i unshift  " +num)
+console.log(r)
 
 // Array Functions
 
-let arr1=Array.from('Ghulam Shabbir')
+let arr1=Array.from('Ghulam Shabbir') // string to array
 console.log(arr1)
 
 console.log(Array.isArray(arr1))
@@ -54,7 +77,7 @@ let filterarry=arr10.filter(z=>z>2)
 console.log(filterarry)
 
 let arr11=[1,[2,3],4,5,[6,[7,8]]]
-let faltarray=arr11.flat(2)
+let faltarray=arr11.flat(2)  // remove nested arrays and add its value in main array
 
 let arr12=[551,22,3,14,5,6,7,8,229]
 a=arr12.sort()
