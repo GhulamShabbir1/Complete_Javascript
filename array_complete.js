@@ -113,3 +113,24 @@ let newNum3 = num.slice(3)
 let newNum4 = num1.slice(3, 5)
 console.log(newNum3)
 console.log(newNum4)
+
+let num3 = [3, 5, 1, 2, 4]
+
+for(let i=0; i<num3.length;i++){
+  console.log(num3[i])
+}
+
+// ForEach Loop
+num3.forEach((element) => {
+  console.log(" using for each loop "+element * element)
+})
+
+// for...of 
+for (let item of num3){
+  console.log(" using for of loop "+item)
+}
+
+// for...in
+for (let i in num3){
+  console.log(" using for in loop "+num3[i])
+}
