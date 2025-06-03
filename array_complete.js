@@ -24,7 +24,7 @@ let c = num.join(" and ")
 console.log(` the type of ${c} is ` + typeof c)
 
  let r1 = num.pop() // pop returns the popped element
- console.log(num + " the numbers i pop is " + r1)
+ console.log( " the numbers i pop is " + r1)
 
  let r2 = num.push(56) // push returns the new array length
  console.log(num+ " the numbers i push is " +r2)
