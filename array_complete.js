@@ -55,7 +55,7 @@ console.log(concatArr)
 
 let arr5=[1,3,4,5]
 arr5.fill(0)
-console.log(arr5)
+console.log(" now Array arr5 is fill with 0"+arr5)
 
 let arr6=[1,2,3,4,5]
 let found=arr6.find(x=>x>2)
