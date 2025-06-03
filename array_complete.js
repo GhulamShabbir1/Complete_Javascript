@@ -104,7 +104,7 @@ num2.sort(compare)
 console.log("the exact method of array to sort "+num2)
 
 num2.reverse()
-console.log("the exact method of array to sort "+num2)
+console.log("the exact method to reverse array "+num2)
 
 // Splice and Slice
 let num1 = [551, 22, 3, 14, 5, 6, 7, 8, 229]
