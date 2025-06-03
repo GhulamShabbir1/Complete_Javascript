@@ -66,7 +66,7 @@ console.log(arr7.join())
 
 let arr8=[1,2,3,4,5]
 let filteredArr=arr8.filter(x=>x>2)
-console.log(filteredArr)
+console.log(" We filter numbers according to required condition "+filteredArr)
 
 let arr9=[1,2,3,4,5]
 let maped=arr9.map(y=>y*2)
