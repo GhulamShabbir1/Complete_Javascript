@@ -145,7 +145,8 @@ let a1 = arr.map((value, index, array) => {
   console.log(value, index, array)
   return value + index
 })
-// console.log(arr)
+console.log(arr)
+console.log(a1)
 
 // Array filter method
 let arry1 = [45, 23, 21, 0, 3, 5]
