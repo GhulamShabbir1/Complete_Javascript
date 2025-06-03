@@ -78,6 +78,7 @@ console.log(" We filter numbers according to required condition "+filterarry)
 
 let arr11=[1,[2,3],4,5,[6,[7,8]]]
 let faltarray=arr11.flat(2)  // remove nested arrays and add its value in main array
+console.log(faltarray)
 
 let arr12=[551,22,3,14,5,6,7,8,229]
 let a=arr12.sort()
