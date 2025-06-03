@@ -27,7 +27,7 @@ console.log(` the type of ${c} is ` + typeof c)
  console.log( " the numbers i pop is " + r1)
 
  let r2 = num.push(56) // push returns the new array length
- console.log(num+ " the numbers i push is " +r2)
+ console.log(" the numbers i push is " +r2)
 
  let r3 = num.shift()
 console.log(r3+ " the numbers i shift  " +num) // Removes an element from the start of the array
