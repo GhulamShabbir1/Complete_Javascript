@@ -33,7 +33,7 @@ console.log(` the type of ${c} is ` + typeof c)
 console.log(" the numbers i shift  " +num) // Removes an element from the start of the array
 
 let r = num.unshift(78)
-console.log(r+ " the numbers i unshift  " +num)
+console.log(" the numbers i unshift  " +num)
 console.log(r)
 
 // Array Functions
