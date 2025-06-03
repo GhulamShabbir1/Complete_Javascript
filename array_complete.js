@@ -18,7 +18,7 @@ console.log("the data type of array is "+typeof marks_class_12)
 let num = [1, 2, 3, 34, 4]
 let b = num.toString() // b is now a string 
 
-console.log(b + " the type of given data is " + typeof b)
+console.log(` the type of ${b} is ` + typeof b)
 
 let c = num.join(" and ")
 console.log(c, typeof c)
