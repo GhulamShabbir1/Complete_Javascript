@@ -109,10 +109,10 @@ console.log("the exact method to reverse array "+num2)
 // Splice and Slice
 let num1 = [551, 22, 3, 14, 5, 6, 7, 8, 229]
 let deletedValues = num.splice(2, 4, 1021, 1022, 1023, 1024, 1025) // at position 2 add 4 values
-console.log(num)
+console.log(num1)
 console.log(deletedValues)
 
-let newNum3 = num.slice(3)
+let newNum3 = num1.slice(3)
 let newNum4 = num1.slice(3, 5)
 console.log(newNum3)
 console.log(newNum4)
@@ -142,7 +142,7 @@ for (let i in num3){
 let arr = [45, 23, 21]
 // Array map method
 let a1 = arr.map((value, index, array) => {
-  // console.log(value, index, array)
+  console.log(value, index, array)
   return value + index
 })
 // console.log(arr)
