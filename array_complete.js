@@ -30,7 +30,7 @@ console.log(` the type of ${c} is ` + typeof c)
  console.log(" the numbers i push is " +r2)
 
  let r3 = num.shift()
-console.log(r3+ " the numbers i shift  " +num) // Removes an element from the start of the array
+console.log(" the numbers i shift  " +num) // Removes an element from the start of the array
 
 let r = num.unshift(78)
 console.log(r+ " the numbers i unshift  " +num)
