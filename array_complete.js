@@ -153,7 +153,7 @@ let arry1 = [45, 23, 21, 0, 3, 5]
 let a2 = arr2.filter((a1) => {
   return a1 < 10
 })
-// console.log(a2, arr2)
+console.log(a2, arr2)
 
 // Array reduce method
 let arry2 = [1, 2, 3, 5, 2, 1]
