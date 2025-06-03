@@ -21,7 +21,7 @@ let b = num.toString() // b is now a string
 console.log(` the type of ${b} is ` + typeof b)
 
 let c = num.join(" and ")
-console.log(c, typeof c)
+console.log(` the type of ${c} is ` + typeof c)
 
  let r1 = num.pop() // pop returns the popped element
  console.log(num + " the numbers i pop is " + r1)
