@@ -82,14 +82,14 @@ console.log(faltarray)
 
 let arr12=[551,22,3,14,5,6,7,8,229]
 let a=arr12.sort()
-console.log(a)
+console.log(" the array is now sort "+a)
 
 
 let num_more = [11, 12, 13, 14, 15, 16, 17, 18, 19]
 let num_even_more = [211, 212, 213, 214, 415, 416, 417, 418, 419]
-console.log(num.length)
-delete num[0]
-console.log(num.length)
+console.log(num_more.length)
+delete num_more[0]
+console.log(num_more.length)
 
 let newArray = num.concat(num_more, num_even_more)
 console.log(newArray)
