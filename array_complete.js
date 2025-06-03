@@ -59,7 +59,7 @@ console.log(" now Array arr5 is fill with 0"+arr5)
 
 let arr6=[1,2,3,4,5]
 let found=arr6.find(x=>x>2)
-console.log(found)
+console.log(" We find number according to required condition "+found)
 
 let arr7=[1, ,3, ,4, ,5]
 console.log(arr7.join())
