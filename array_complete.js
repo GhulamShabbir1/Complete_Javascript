@@ -74,7 +74,7 @@ console.log(maped)
 
 let arr10=[1,2,3,4,5]
 let filterarry=arr10.filter(z=>z>2)
-console.log(filterarry)
+console.log(" We filter numbers according to required condition "+filterarry)
 
 let arr11=[1,[2,3],4,5,[6,[7,8]]]
 let faltarray=arr11.flat(2)  // remove nested arrays and add its value in main array
