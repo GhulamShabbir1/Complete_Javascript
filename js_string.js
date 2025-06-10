@@ -60,7 +60,8 @@ console.log(friend2.trimStart())
 
 console.log(friend2.trimEnd())
 
-let fr = "Roman" + "seth" + "dean"
+let fr = "Roman" + "seth" + "dean";
+
 console.log(fr[0])
 console.log(fr[1])
 console.log(fr[2])
