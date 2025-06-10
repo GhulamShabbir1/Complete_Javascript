@@ -6,8 +6,6 @@ console.log(name[1])
 let friend = 'hamza'
 console.log(friend)
 
-// let myfriend = "Shubh' // Dont do this
-// console.log(myfriend)
 
 // Template literals
 let boy1 = "raw"
@@ -38,6 +36,8 @@ console.log(name.replace("Har", "Per"))
 
 console.log(name.concat(" is a friend of ", friend, " Ok"))
 
+
+
 let friend2 = "      Meena        "
 console.log(friend2)
 console.log(friend2.trim())
@@ -48,6 +48,9 @@ console.log(fr[1])
 console.log(fr[2])
 console.log(fr[3])
 console.log(fr[4])
+
+console.log(fr.substring(7,7))
+
 
 
 console.log(fr)
