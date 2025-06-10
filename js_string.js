@@ -32,6 +32,8 @@ console.log(name.slice(2, 4))
 
 console.log(name.slice(2))
 
+console.log(name.slice(-2))
+
 console.log(name.replace("Har", "Per"))
 
 console.log(name.concat(" is a friend of ", friend, " Ok"))
