@@ -40,7 +40,12 @@ console.log(name.concat(" is a friend of ", friend, " Ok"))
 
 let friend2 = "      Meena        "
 console.log(friend2)
+
 console.log(friend2.trim())
+
+console.log(friend2.trimStart())
+
+console.log(friend2.trimEnd())
 
 let fr = "Roman" + "seth" + "dean"
 console.log(fr[0])
