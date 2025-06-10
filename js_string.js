@@ -1,16 +1,13 @@
 let name1 = "Ghulam Shabbir"
-console.log(name1.length)
+console.log(`the lenght of string ${name1} is ${name1.length}`)
+
 console.log(name1[0])
 console.log(name1[1])
 
 let friend = 'hamza'
 console.log(friend)
 
-console.log(friend.padStart(4,"start "))
 
-console.log(friend.padEnd(4,"End "))
-
-console.log(friend.split("_"))
 
 
 // Template literals
@@ -40,13 +37,19 @@ console.log(name1.slice(-2))
 
 console.log(name1.replace("Har", "Per"))
 
-console.log(name1.repeat(2))
+console.log(name1.repeat(2)) // repeat 2 time
 
 console.log(name1.concat(" is a friend of ", friend, " Ok"))
 
 let text = "I love cats. Cats are very easy to love. Cats are very popular."
 text = text.replaceAll("Cats","Dogs");
 text = text.replaceAll("cats","dogs");
+
+console.log(name1.padStart(4,"start ")) // add text "Start " at start up to 4 ch
+
+console.log(name1.padEnd(4,"End ")) // add text "End " at end up to 4 ch
+
+console.log(name1.split("_")) // add _ aftar every character
 
 let friend2 = "      Meena        "
 console.log(friend2)
