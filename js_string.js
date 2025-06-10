@@ -29,11 +29,11 @@ console.log(name1.toUpperCase())
 
 console.log(name1.toLowerCase())
 
-console.log(name1.slice(2, 4))
+console.log(name1.slice(2, 4))  // at 2 ch is include but 4 not
 
-console.log(name1.slice(2))
+console.log(name1.slice(2)) // from to to end
 
-console.log(name1.slice(-2))
+console.log(name1.slice(-2)) // from end
 
 console.log(name1.replace("Har", "Per"))
 
