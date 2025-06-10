@@ -1,10 +1,14 @@
-let name = "Ghulam Shabbir"
-console.log(name.length)
-console.log(name[0])
-console.log(name[1])
+let name1 = "Ghulam Shabbir"
+console.log(name1.length)
+console.log(name1[0])
+console.log(name1[1])
 
 let friend = 'hamza'
 console.log(friend)
+
+console.log(friend.padStart(4,"start "))
+
+console.log(friend.padEnd(4,"End "))
 
 
 // Template literals
@@ -20,21 +24,21 @@ console.log(fruit)
 
 // String Methods
 
-console.log(name.length)
+console.log(name1.length)
 
-console.log(name.toUpperCase())
+console.log(name1.toUpperCase())
 
-console.log(name.toLowerCase())
+console.log(name1.toLowerCase())
 
-console.log(name.slice(2, 4))
+console.log(name1.slice(2, 4))
 
-console.log(name.slice(2))
+console.log(name1.slice(2))
 
-console.log(name.slice(-2))
+console.log(name1.slice(-2))
 
-console.log(name.replace("Har", "Per"))
+console.log(name1.replace("Har", "Per"))
 
-console.log(name.concat(" is a friend of ", friend, " Ok"))
+console.log(name1.concat(" is a friend of ", friend, " Ok"))
 
 
 
