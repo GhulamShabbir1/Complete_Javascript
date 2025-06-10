@@ -10,6 +10,8 @@ console.log(friend.padStart(4,"start "))
 
 console.log(friend.padEnd(4,"End "))
 
+console.log(friend.split("_"))
+
 
 // Template literals
 let boy1 = "raw"
@@ -38,9 +40,13 @@ console.log(name1.slice(-2))
 
 console.log(name1.replace("Har", "Per"))
 
+console.log(name1.repeat(2))
+
 console.log(name1.concat(" is a friend of ", friend, " Ok"))
 
-
+let text = "I love cats. Cats are very easy to love. Cats are very popular."
+text = text.replaceAll("Cats","Dogs");
+text = text.replaceAll("cats","dogs");
 
 let friend2 = "      Meena        "
 console.log(friend2)
