@@ -17,7 +17,7 @@ console.log("the data type of array is "+typeof marks_class_12)
 // Array Methods
 let num = [1, 2, 3, 34, 4]
 let b = num.toString() // b is now a string 
-cosole.log("the Array convert to string "+b)
+console.log("the Array convert to string "+b)
 
 console.log(` the type of ${b} is ` + typeof b)
 
@@ -44,6 +44,10 @@ console.log(r)
 
 let arr1=Array.from('Ghulam Shabbir') // string to array
 console.log(arr1)
+
+arr1.forEach((j)=>{
+  console.log(j*j)
+})
 
 console.log(Array.isArray(arr1))
 
