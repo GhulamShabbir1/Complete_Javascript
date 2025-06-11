@@ -1,13 +1,13 @@
 // create array and add a number to this array enter by a user
 let arr1=[1,2,5,9,4,89]
-let a=input("Enter a number in array")
+let a=prompt("Enter a number in array")
 a=Number.parseInt(a)
 arr1.push(a)
 
 // add a number until number not equal to 0
 
 let arr2=[1,2,5,9,4,89]
-let b=input("Enter a number in array")
+let b=prompt("Enter a number in array")
 a=Number.parseInt(b)
 if(a!=0){
     arr1.push(a)
