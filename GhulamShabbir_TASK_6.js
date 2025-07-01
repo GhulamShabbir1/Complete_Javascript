@@ -64,6 +64,7 @@ function isDuplicates(arr) {
 
 console.log(isDuplicates(arr))
 
+// using closure
 
 function chain(val) {
   return {
