@@ -108,8 +108,11 @@ let compare = (a, b)=>{
   return b - a
 }
 let num2 = [551, 22, 3, 14, 5, 6, 7, 8, 229]
+num2.sort()
+console.log("the method of array to sort without compare method "+num2)
+
 num2.sort(compare)
-console.log("the exact method of array to sort "+num2)
+console.log("the method of array to sort with compare method "+num2)
 
 num2.reverse()
 console.log("the exact method to reverse array "+num2)
@@ -170,3 +173,7 @@ const reduce_func = (h1, h2) => {
 }
 let newarr3 = arr3.reduce(reduce_func)
 console.log(newarr3)
+
+
+
+console.log(num2.sort)
