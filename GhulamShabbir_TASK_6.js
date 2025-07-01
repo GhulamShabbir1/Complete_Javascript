@@ -157,3 +157,35 @@ console.log(evaluateExpression("5 + 3 * 2"));   // ➜ 16 (left-to-right: 5+3=8,
 console.log(evaluateExpression("10 - 2 + 4"));  // ➜ 12
 console.log(evaluateExpression("6 / 2 * 3"));   // ➜ 9
 console.log(evaluateExpression("8 * 2 + 5"));   // ➜ 21
+
+
+
+
+// Find that which value of array are prime number or not 
+
+let numbers = [];
+for (let i = 1; i <= 1000; i++) {
+  numbers.push(i);
+}
+var prime_array = [];
+var non_prime_array = [];
+
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let j = 2; j <= Math.sqrt(num); j++) {
+    if (num % j === 0) return false;
+  }
+  return true;
+}
+
+for (let i = 0; i < numbers.length; i++) {
+  if (isPrime(numbers[i])) {
+    prime_array.push(numbers[i]);
+  }
+  else {
+    non_prime_array.push(numbers[i])
+  }
+}
+
+console.log("This is a new array of prime numbers: ", prime_array);
+console.log("This is a new array of non prime numbers: ", non_prime_array);
