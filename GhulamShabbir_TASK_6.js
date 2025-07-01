@@ -113,7 +113,7 @@ function numberToWords(num) {
 console.log(numberToWords(23)); // twenty three
 
 
-
+// acceplt only same formate expression 
 
 function evaluateExpression(expr) {
   try {
