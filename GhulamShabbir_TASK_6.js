@@ -85,7 +85,7 @@ function chain(val) {
 // Example:
 console.log(chain(5).add(5).multiply(2).value()); // 20
 
-
+// find or convert number to digit 
 
 const ones = {
   0: "zero", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five",
